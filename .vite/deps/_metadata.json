@@ -1,0 +1,25 @@
+{
+  "hash": "f55dcb46",
+  "configHash": "8a5170c0",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "af50413e",
+  "optimized": {
+    "@chakra-ui/react": {
+      "src": "../../node_modules/@chakra-ui/react/dist/index.mjs",
+      "file": "@chakra-ui_react.js",
+      "fileHash": "65fd99d3",
+      "needsInterop": false
+    },
+    "@chakra-ui/icons": {
+      "src": "../../node_modules/@chakra-ui/icons/dist/index.mjs",
+      "file": "@chakra-ui_icons.js",
+      "fileHash": "6a8529b0",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-TE4ROPNJ": {
+      "file": "chunk-TE4ROPNJ.js"
+    }
+  }
+}

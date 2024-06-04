@@ -1,0 +1,45 @@
+.container {
+  background-color: #f4f9fb;
+  border-radius: 8px;
+  padding: 65px 80px 70px 80px;
+  max-width: 270px;
+  width: 100%;
+  height: 350px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 188px;
+  height: 159px;
+
+  margin-bottom: 12px;
+}
+
+.num {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.text {
+  padding-top: 3vh;
+  max-width: 188px;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .container{
+    margin: 10px;
+    background-color: white;
+  }
+  .text{
+    padding-top: 1vh;
+  }
+}

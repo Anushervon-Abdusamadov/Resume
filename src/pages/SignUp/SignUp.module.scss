@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+  .otsukas {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .txt {
+    font-size: x-large !important;
+    text-align: center !important;
+    display: flex;
+
+    justify-content: center;
+  }
+  .flex {
+    flex-wrap: wrap !important;
+  }
+  .boxes {
+    width: 100% !important;
+  }
+}
+
+.sotka {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.container2 {
+  background-color: #f4f9fb;
+}
+
+.img {
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  margin-right: 1vw;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  height: 100vh;
+}
+
+.ssotka {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.login-form {
+  font-family: "Arial, sans-serif";
+
+  .chakra-button {
+    margin-top: 1rem;
+  }
+
+  .chakra-link {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .none {
+    display: flex !important;
+  }
+}

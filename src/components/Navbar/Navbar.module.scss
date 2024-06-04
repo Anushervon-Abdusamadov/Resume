@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  height: 600px;
+
+  background-color: #f4f9fb;
+}
+
+.ssotka {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 100vh;
+  }
+  .img {
+    margin-left: 10vw;
+  }
+  @media (max-width: 400px) {
+    .img {
+      margin-left: 0vw!important;
+
+    }
+  }
+  .image {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .br {
+    display: none;
+  }
+  .ssotka {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sotka {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+//.box {
+//  border-top: 1px solid rgb(239, 239, 239);
+//  border-bottom: 1px solid rgb(185, 185, 185);
+//  padding-top: 25px;
+//  padding-bottom: 10px;
+//}
+//.link {
+//  &:hover {
+//    color: orange;
+//  }
+//  text-decoration: none;
+//  border-bottom: none;
+//}
+//.link_yel {
+//  text-decoration: none;
+//  position: relative; /* Позволяет добавить линию */
+//  &:hover {
+//    color: orange;
+//  }
+//  &:hover::after {
+//    content: "";
+//    position: absolute;
+//    top: 50px;
+//    left: 0;
+//    bottom: 0;
+//    height: 1px; /* Высота линии */
+//    width: 100%;
+//    background-color: orange; /* Цвет линии */
+//  }
+//}
+//
+//.Link {
+//  text-decoration: none;
+//}
+//
+//// .button{
+////     background-color: orange;
+//// }

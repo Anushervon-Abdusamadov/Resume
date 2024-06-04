@@ -1,0 +1,41 @@
+.container {
+  background-color: #f4f9fb;
+  border-radius: 8px;
+  padding: 80px 86px 75px 86px;
+  max-width: 360px;
+  width: 100%;
+  height: 427px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 188px;
+  height: 159px;
+
+  margin-bottom: 12px;
+}
+
+.num {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.text {
+  max-width: 188px;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  color: #515151;
+}
+@media (max-width: 768px) {
+  .container{
+    margin: 10px;
+  }
+}
