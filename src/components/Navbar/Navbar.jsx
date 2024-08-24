@@ -65,7 +65,11 @@ export default function Navbar() {
               >
                 Вход
               </Button>
-              <Button colorScheme="telegram" variant="outline">
+              <Button
+                onClick={() => navigate("/*")}
+                colorScheme="telegram"
+                variant="outline"
+              >
                 Регистрация
               </Button>
             </span>

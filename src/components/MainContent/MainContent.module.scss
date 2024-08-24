@@ -42,7 +42,6 @@
 }
 
 .section_six {
-
   background-color: #f4f9fb;
   display: flex;
   flex-wrap: wrap;
@@ -50,7 +49,6 @@
   border-radius: 10px;
   height: 30vh;
   width: 100%;
-
 }
 
 .outcasts {
@@ -63,7 +61,6 @@
   border-radius: 10px;
   text-align: center;
 }
-
 
 .components1 {
   height: 25vh;
@@ -94,7 +91,7 @@
   border-radius: 10px;
   padding: 1%;
 }
-.btnAdaptive{
+.btnAdaptive {
   display: none !important;
 }
 .component2 {
@@ -107,7 +104,7 @@
   padding: 1%;
 }
 //уменьшении размера экрана(браузер)
-@media only screen and (min-width: 1980px){
+@media only screen and (min-width: 1980px) {
   .component1 {
     height: 25vh;
     max-width: 10vw;
@@ -122,19 +119,18 @@
   .text {
     margin-left: 0vw !important;
   }
-  .components1{
+  .components1 {
     height: auto !important;
   }
-  .components2{
+  .components2 {
     height: auto !important;
-
   }
 }
 .component3 {
   height: 25vh;
   width: 30vw;
   color: white;
-  background-color: #F0D075;
+  background-color: #f0d075;
   border-radius: 10px;
   padding: 1%;
 }
@@ -154,7 +150,7 @@
   margin: 10px 0 7vh;
   text-align: center;
   background-color: #f1f2f3;
-  color: #F0D075 !important;
+  color: #f0d075 !important;
 }
 
 .btn {
@@ -172,7 +168,6 @@
   .section_first {
     overflow-x: scroll !important;
     padding: 10px;
-
   }
 
   .section_second {
@@ -188,9 +183,8 @@
   }
   .section_fifth {
     background-color: #f4f9fb;
-
   }
-  .btnAdaptive{
+  .btnAdaptive {
     display: flex !important;
     width: 90vw !important;
   }
@@ -253,7 +247,6 @@
   .txt {
     font-size: x-large !important;
     text-align: center !important;
-
   }
   .izbraniy {
     height: 25vh;
@@ -296,7 +289,6 @@
     justify-content: center;
   }
   .cards {
-
     max-width: 100vw !important;
     width: 100% !important;
     flex-wrap: wrap;
